@@ -11,7 +11,6 @@ public class MovieController {
 	
 	@RequestMapping(value="/{name}", method=RequestMethod.GET)
 	public String getMovie(String name, ModelMap model) {
-		System.out.print("Git auth test");
 		return "list";
 	}
 }
